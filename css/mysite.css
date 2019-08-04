@@ -1,0 +1,104 @@
+body{
+	height: 100%;
+	background-color: #9210b4;
+	padding-top: 20px;
+	background-image: url("../Images/books1.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+	box-sizing: border-box;
+}
+.container {
+	width: 800px;
+	margin:auto;
+}
+
+
+/*start nav*/
+.nav{
+	width: 100%;
+	overflow: auto;
+	background-color: none;
+	margin-top: 0px;
+	position: sticky;
+	top: 0;
+}
+.nav a{
+	float: left;
+	color: white;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.nav a:hover {
+  background-color: #016CE0;
+  color: white;
+  text-decoration: none;
+}
+
+/*end nav*/
+/*start Search*/
+.bg{
+	
+}
+.search input[type=text] {
+	margin-top: 15px;
+	margin-bottom: 30px;
+    padding: 10px;
+
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+.search button {
+	margin-top: 15px;
+	padding: 10px;
+	font-size: 17px;
+	border: 1px solid grey;
+    float: left;
+    width: 20%;
+    background: #0266E1;
+    color: white;
+    border-left: none;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #0b7dda;
+}
+
+.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*end Search*/
+/*start heading 2*/
+.bg .header h2{
+	color: white;
+}
+.bg .header span{
+	color: yellow;
+}
+.bg .header p{
+	padding-left: 20px;
+	color: white;
+}
+
+.bg .somebooks h3 {
+	color: white;
+}
+.bg .somebooks img{
+	float: left;
+	width: 25%;
+	overflow: auto;
+}
+.bg ul{
+	color: white;
+}
+/*end heading 2*/

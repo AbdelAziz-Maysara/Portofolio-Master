@@ -1,0 +1,140 @@
+/* start Main rules*/
+
+*{
+	box-sizing: border-box;
+}
+
+.header{
+	background-color: #fff;
+}
+
+.header .logo{
+	height: 30rem;
+	background-image: url('../19547.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 0;
+}
+
+.header .logo h1{
+	text-align: center;
+	position: relative;
+	padding-top: 10rem;
+	color: #fff;
+	font-size: 5rem;
+	margin-top: 0px;
+	font-family: times;
+}
+
+.header .navbar span{
+	color: #0f0;
+}
+/*end header*/
+
+
+/*start features*/
+.features{
+	background-color: #E8FBFF;
+	height: 18rem;
+	
+}
+.features .feat{
+	margin-top: 1.5rem;
+	font-size: 1rem;
+}
+
+
+/* end of features */
+
+/* about me */
+.services{
+	padding-top: 0px;
+	background-image: url('../pexels-photo-814499.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	height: 45rem;
+}
+.services .head{
+	text-align: center;
+	font-family: times;
+
+}
+
+.services .head h2{
+	margin-bottom: 2rem;
+	padding-top: 2rem;
+	font-size: 4rem;
+
+}
+
+.services .service h3{
+	font-family: times;
+}
+
+.services .freelancing{
+	text-align: center;
+	line-height: 2rem;
+	padding-top: 2rem;
+}
+
+/*.about-me .image{
+	background-image: url('../attachment_63308374.png');
+	background-size: contain;
+}*/
+
+
+
+/* Skills */
+
+.my-skills{
+	height: 23rem;
+	background-color: #E8FBFF;
+	padding-top: 5rem;
+}
+.my-skills p{
+	line-height: 2rem;
+}
+.my-skills .progress{
+	font-size: 1rem;
+	font-family: times;
+	height: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+
+
+/* Resume */
+.resume,.my-edu,.testemonials,.portofolio{
+	text-align: center;
+}
+
+.resume{
+	padding-top: 0px;
+	background-image: url('../washed-colorful-sunset-over-the-sea-1080x720.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #fff;
+	height: 45rem;
+}
+
+.resume h2{
+	padding-top: 15rem;
+	line-height: 3rem;
+}
+
+.resume p{
+	line-height: 3rem;
+}
+
+.resume .btn{
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid white;
+}
+
+
+
