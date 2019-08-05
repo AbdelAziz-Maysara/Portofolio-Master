@@ -4,12 +4,9 @@
 	box-sizing: border-box;
 }
 
-.header{
-	background-color: #fff;
-}
-
 .header .logo{
-	height: 30rem;
+	height: 45rem;
+	position: relative;
 	background-image: url('../19547.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -18,12 +15,14 @@
 }
 
 .header .logo h1{
-	text-align: center;
-	position: relative;
-	padding-top: 10rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+  	transform: translate(-50%, -50%);
 	color: #fff;
 	font-size: 5rem;
-	margin-top: 0px;
+	margin-top: 0;
 	font-family: times;
 }
 
@@ -36,11 +35,8 @@
 /*start features*/
 .features{
 	background-color: #E8FBFF;
-	height: 18rem;
-	
 }
 .features .feat{
-	margin-top: 1.5rem;
 	font-size: 1rem;
 }
 
@@ -55,7 +51,7 @@
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
-	height: 45rem;
+	background-color: #E8FBFF;
 }
 .services .head{
 	text-align: center;
@@ -64,7 +60,6 @@
 }
 
 .services .head h2{
-	margin-bottom: 2rem;
 	padding-top: 2rem;
 	font-size: 4rem;
 
@@ -90,9 +85,8 @@
 /* Skills */
 
 .my-skills{
-	height: 23rem;
+	padding-top: 0;
 	background-color: #E8FBFF;
-	padding-top: 5rem;
 }
 .my-skills p{
 	line-height: 2rem;
@@ -118,7 +112,6 @@
 	background-size: cover;
 	background-attachment: fixed;
 	color: #fff;
-	height: 45rem;
 }
 
 .resume h2{
@@ -134,6 +127,7 @@
 	background-color: transparent;
 	color: #fff;
 	border: 1px solid white;
+	margin-bottom: 2rem;
 }
 
 
