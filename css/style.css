@@ -100,9 +100,26 @@
 
 
 
-/* Resume */
-.resume,.my-edu,.testemonials,.portofolio{
+/* Common */
+.resume,.testemonials,.portofolio{
 	text-align: center;
+}
+
+/*Common*/
+/* Edu */
+
+.my-edu{
+	background-color: #E8FBFF;
+	font-family: times;
+	line-height: 1.5rem;
+	text-align: center;
+}
+.my-edu h2{
+	padding-top: 20px;
+}
+
+.my-edu .info{
+	font-size: 1.5rem;
 }
 
 .resume{
@@ -130,5 +147,26 @@
 	margin-bottom: 2rem;
 }
 
+
+
+/* Portofolio */
+
+
+.portofolio .intro{
+	color: #fff;
+}
+
+.card-body{padding-bottom: 1rem;}
+
+/* Contact */
+
+.contact{
+	text-align: center;
+	background-color: #E8FBFF;
+}
+
+.contact h2{
+	padding-top: 2rem;
+}
 
 
