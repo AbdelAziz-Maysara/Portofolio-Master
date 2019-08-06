@@ -19,7 +19,7 @@
 	top: 50%;
 	left: 50%;
 	-ms-transform: translate(-50%, -50%);
-  	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
 	color: #fff;
 	font-size: 5rem;
 	margin-top: 0;
@@ -78,95 +78,167 @@
 /*.about-me .image{
 	background-image: url('../attachment_63308374.png');
 	background-size: contain;
-}*/
+	}*/
 
 
 
-/* Skills */
+	/* Skills */
 
-.my-skills{
-	padding-top: 0;
-	background-color: #E8FBFF;
-}
-.my-skills p{
-	line-height: 2rem;
-}
-.my-skills .progress{
-	font-size: 1rem;
-	font-family: times;
-	height: 1.5rem;
-	margin-bottom: 0.5rem;
-}
+	.my-skills{
+		padding-top: 0px;
+		margin-top: 0px;
+		background-color: #E8FBFF;
+	}
+	.my-skills h2{
+		margin-top: 0px;
+		padding-top: 0px;
+		text-align: center;
+	}
+	.my-skills p{
+		line-height: 2rem;
+	}
+	.my-skills .progress{
+		font-size: 1rem;
+		font-family: times;
+		height: 1.5rem;
+		margin-bottom: 0.5rem;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
 
 
 
-/* Common */
-.resume,.testemonials,.portofolio{
+	/* Common */
+	.resume,.testemonials,.portofolio{
+		text-align: center;
+	}
+
+	/*Common*/
+	
+
+	.resume{
+		padding-top: 0px;
+		background-image: url('../washed-colorful-sunset-over-the-sea-1080x720.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		color: #fff;
+	}
+
+	.resume h2{
+		padding-top: 3rem;
+		line-height: 3rem;
+	}
+
+	.resume p{
+		line-height: 3rem;
+	}
+
+	.resume .btn{
+		background-color: transparent;
+		color: #fff;
+		border: 1px solid white;
+		margin-bottom: 4rem;
+	}
+	/* Edu */
+
+	.my-edu{
+		background-color: #E8FBFF;
+		font-family: times;
+		line-height: 1.5rem;
+		text-align: center;
+	}
+	.my-edu h2{
+		padding-top: 20px;
+	}
+
+	.my-edu .info{
+		font-size: 1.5rem;
+		padding-bottom: 2rem;
+	}
+
+
+
+	/* Portofolio */
+	.portofolio{
+		text-align: center;
+		background-color: #E8FBFF;
+		background-image: url('../washed-colorful-sunset-over-the-sea-1080x720.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		padding-top: 0px;
+		margin-top: 0px;
+	}
+	.portofolio h1{
+		padding-top: 0px;
+		margin-top: 0px;
+		color: #fff;
+	}
+	#demo {
+		height:100%;
+		position:relative;
+		overflow:hidden;
+	}
+
+
+	.green{
+		background-color:#6fb936;
+	}
+	.thumb{
+		margin-bottom: 30px;
+	}
+
+	.page-top{
+		
+
+	}
+
+
+	img.zoom {
+		width: 100%;
+		height: 200px;
+		border-radius:5px;
+		object-fit:cover;
+		-webkit-transition: all .3s ease-in-out;
+		-moz-transition: all .3s ease-in-out;
+		-o-transition: all .3s ease-in-out;
+		-ms-transition: all .3s ease-in-out;
+	}
+
+
+	.transition {
+		-webkit-transform: scale(1.2); 
+		-moz-transform: scale(1.2);
+		-o-transform: scale(1.2);
+		transform: scale(1.2);
+	}
+	.modal-header {
+
+		border-bottom: none;
+	}
+	.modal-title {
+		color:#000;
+	}
+	.modal-footer{
+		display:none;  
+	}
+
+
+	/* Contact */
+
+	.contact{
+		text-align: center;
+		background-color: #E8FBFF;
+	}
+
+	.contact h2{
+		padding-top: 2rem;
+	}
+
+.footer{
 	text-align: center;
-}
-
-/*Common*/
-/* Edu */
-
-.my-edu{
 	background-color: #E8FBFF;
-	font-family: times;
-	line-height: 1.5rem;
-	text-align: center;
-}
-.my-edu h2{
-	padding-top: 20px;
-}
-
-.my-edu .info{
-	font-size: 1.5rem;
-}
-
-.resume{
-	padding-top: 0px;
-	background-image: url('../washed-colorful-sunset-over-the-sea-1080x720.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	color: #fff;
-}
-
-.resume h2{
-	padding-top: 15rem;
-	line-height: 3rem;
-}
-
-.resume p{
-	line-height: 3rem;
-}
-
-.resume .btn{
-	background-color: transparent;
-	color: #fff;
-	border: 1px solid white;
-	margin-bottom: 2rem;
-}
-
-
-
-/* Portofolio */
-
-
-.portofolio .intro{
-	color: #fff;
-}
-
-.card-body{padding-bottom: 1rem;}
-
-/* Contact */
-
-.contact{
-	text-align: center;
-	background-color: #E8FBFF;
-}
-
-.contact h2{
 	padding-top: 2rem;
 }
-
 
