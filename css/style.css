@@ -52,6 +52,7 @@
 	background-attachment: fixed;
 	color: #fff;
 	background-color: #E8FBFF;
+	overflow: hidden;
 }
 .services .head{
 	text-align: center;
@@ -85,13 +86,13 @@
 	/* Skills */
 
 	.my-skills{
-		padding-top: 0px;
-		margin-top: 0px;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+		margin: auto;
 		background-color: #E8FBFF;
 	}
 	.my-skills h2{
-		margin-top: 0px;
-		padding-top: 0px;
+		margin: auto;
 		text-align: center;
 	}
 	.my-skills p{
